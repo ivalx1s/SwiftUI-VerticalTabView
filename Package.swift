@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftUI-VerticalTabView",
+	platforms: [
+		.iOS(.v15)
+	],
     products: [
         .library(
             name: "SwiftUI-VerticalTabView",
